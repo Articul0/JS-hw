@@ -1,0 +1,18 @@
+rect{ display: none;}
+.left-eye:active{display: none;}
+.left-eye:active + rect{ display: block; }
+
+.hourhand{
+    stroke-width: 3px;
+    stroke: white;
+}
+
+.minutehand{
+    stroke-width: 3px;
+    stroke: white;
+}
+
+.secondhand{
+    stroke-width: 1px;
+    stroke: white;
+}
